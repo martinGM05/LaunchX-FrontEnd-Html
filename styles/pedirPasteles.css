@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --principal: #F7BDCC;
+    --secundario: #000000;
+    --terceario: #707070;
+    --grisClaro: #676767;
+    --blanco: #FFF
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    width: 900px;
+    height: 585px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    border: 3px solid #000;
+}
+
+.tituloFormulario {
+    height: 70px;
+    background-color: var(--principal);
+    color: var(--secundario);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tituloFormulario p {
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.formControlPersonal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form p {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+    padding: 10px;
+}
+
+.form input {
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.formControlDescripcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.formControlDescripcion p {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.formControlDescripcion input {
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    padding: 10px;
+    margin-right: 25px;
+}
+
+.contenedorS {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorS p {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+    padding: 5px;
+}
+
+.itemS {
+    width: 80%;
+    height: 120px;
+    border: var(--secundario) solid 3px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.formControlAdornos {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.formControlAdornos label {
+    font-size: 15px;
+    font-family: 'Fredoka', sans-serif;
+    padding: 10px;
+}
+
+.contenedorBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.contenedorBtn input {
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    background-color: var(--principal);
+    color: var(--secundario);
+    font-size: 24px;
+    font-family: 'Fredoka', sans-serif;
+    margin-right: 10px;
+    cursor: pointer;
+}

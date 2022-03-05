@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+
+<body>
+
+    <div class="opcionesMenu">
+        <nav class="menuLista" id="opcionesMenu">
+            <div class="flexMenuOpt">
+                <p>Selecciona a donde quiere ir:</p>
+                <nav class="enlaceMenu2" id="enlaceMenu2">
+                    <i class="fa-solid fa-xmark"></i>
+                </nav>
+            </div>
+            <a class="enlaceSabores" href="#sabores">Sabores</a>
+            <a class="enlaceAdornos" href="#adornos">Adornos</a>
+            <a class="enlacePedirPastel" href="pages/pedirPastel.html">Pedir Pastel</a>
+            <a class="enlaceAdmin" href="pages/adminPasteleria.html">Iniciar sesión como adiministrador</a>
+        </nav>
+    </div>
+
+    <div class="navbar">
+        <div></div>
+        <div class="banderaLogo">
+            <img id="imgLogo" src="img/Logo.png" alt="Logo Pasteleria Carmen" />
+        </div>
+        <nav class="enlaceMenu" id="enlaceMenu">
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+        <nav class="enlaces">
+            <a href="#sabores" id="#enlaceS">Sabores</a>
+            <a href="#adornos" id="#enlaceA">Adornos</a>
+            <a href="pages/pedirPastel.html">Pedir Pastel</a>
+        </nav>
+        <input type="button" onclick="location.href='pages/adminPasteleria.html'" class="btnLogin" value="Iniciar sesión como adiministrador" />
+    </div>
+
+    <div class="carousel-wrapper">
+        <span id="item-1"></span>
+        <span id="item-2"></span>
+        <span id="item-3"></span>
+        <div class="carousel-item item-1">
+            <a href="#item-3" class="arrow-prev arrow"></a>
+            <a href="#item-2" class="arrow-next arrow"></a>
+        </div>
+
+        <div class="carousel-item item-2">
+            <a href="#item-1" class="arrow-prev arrow"></a>
+            <a href="#item-3" class="arrow-next arrow"></a>
+        </div>
+
+        <div class="carousel-item item-3">
+            <a href="#item-2" class="arrow-prev arrow"></a>
+            <a href="#item-1" class="arrow-next arrow"></a>
+        </div>
+        <div class="tituloPasteleria">
+            <p>Nosotros hacemos tus sueños pasteles!!!</p>
+        </div>
+    </div>
+
+    <main>
+        <div class="contenedorSabores" id="sabores">
+            <div class="tituloSabores">
+                <p class="titulos" id="title">Sabores</p>
+                <div class="imgSabores">
+                    <img class="imgPastelesFooter" src="img/sabores.jpg" alt="Sabores" />
+                </div>
+            </div>
+            <div class="contenidoSabores">
+                <div class="sabores">
+                    <p class="descripcionSabor">Vainilla</p>
+                    <img class="imgPasteles" src="img/Sabores/vainilla.jpg" alt="Pastel 1" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">zanahoria</p>
+                    <img class="imgPasteles" src="img/Sabores/zanahoria.jpg" alt="Pastel 1" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">Café</p>
+                    <img class="imgPasteles" src="img/Sabores/cafe.jpg" alt="Pastel 1" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">Coco</p>
+                    <img class="imgPasteles" src="img/Sabores/coco.png" alt="Pastel Coco" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">Fresa</p>
+                    <img class="imgPasteles" src="img/Sabores/fresa.jpg" alt="Pastel 1" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">Naranja</p>
+                    <img class="imgPasteles" src="img/Sabores/naranja.jpg" alt="Pastel 1" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">Chocolate</p>
+                    <img class="imgPasteles" src="img/Sabores/chocolate.jpg" alt="Pastel 1" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">Limon</p>
+                    <img class="imgPasteles" src="img/Sabores/limon.jpg" alt="Pastel 1" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">Piña</p>
+                    <img class="imgPasteles" src="img/Sabores/piña.jpg" alt="Pastel 1" />
+                </div>
+            </div>
+        </div>
+        <div class="contenedorSabores" id="adornos">
+            <div class="tituloSabores">
+                <p class="titulos" id="title">Adornos</p>
+                <div class="imgSabores">
+                    <img class="imgPastelesFooter" src="img/adornos.jpg" alt="Sabores" />
+                </div>
+            </div>
+            <div class="contenidoSabores">
+                <div class="sabores">
+                    <p class="descripcionSabor">Corona</p>
+                    <img class="imgPasteles" src="img/Adornos/Corona.png" alt="Pastel 1" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">Gorros</p>
+                    <img class="imgPasteles" src="img/Adornos/Gorros.png" alt="Pastel 1" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">Globos</p>
+                    <img class="imgPasteles" src="img/Adornos/Globos.png" alt="Pastel 1" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">Mariposas</p>
+                    <img class="imgPasteles" src="img/Adornos/Mariposas.png" alt="Pastel 1" />
+                </div>
+                <div class="sabores">
+                    <p class="descripcionSabor">Animales</p>
+                    <img class="imgPasteles" src="img/Adornos/animales.png" alt="Pastel 1" />
+                </div>
+
+            </div>
+        </div>
+        <div class="pasteles">
+            <p class="titulos">Pasteles</p>
+            <div class="cudriculaImagenes">
+                <div>
+                    <img class="imgPastelesFooter" src="./img/Pasteles/Pastel1.jpg" alt="Imagen Pastel" />
+                </div>
+                <div>
+                    <img class="imgPastelesFooter" src="./img/Pasteles/Pastel2.png" alt="Imagen Pastel" />
+                </div>
+                <div>
+                    <img class="imgPastelesFooter" src="./img/Pasteles/Pastel3.png" Imagen Pastel " />
+                </div>
+                <div>
+                    <img class="imgPastelesFooter " src="./img/Pasteles/Pastel4.png "Imagen Pastel" />
+                </div>
+                <div>
+                    <img class="imgPastelesFooter" src="./img/Pasteles/Pastel5.png" Imagen Pastel " />
+                </div>
+                <div>
+                    <img class="imgPastelesFooter " src="./img/Pasteles/Pastel6.png "Imagen Pastel" />
+                </div>
+                <div>
+                    <img class="imgPastelesFooter" src="./img/Pasteles/Pastel7.png" Imagen Pastel " />
+                </div>
+                <div>
+                    <img class="imgPastelesFooter " src="./img/Pasteles/Pastel8.png "Imagen Pastel" />
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="enlacesFooter">
+            <div>
+                <p class="titulos" id="title">Información de la pastelería</p>
+                <div class="contenedorInfo1">
+                    <p>231-143-52654</p>
+                    <p>Puebla, Centro</p>
+                </div>
+            </div>
+            <div>
+                <div class="contenedorInfo">
+                    <p class="titulos" id="title">Horarios</p>
+                    <div class="horarios">
+                        <div class="horario">
+                            <p>Lunes: 09:00 - 15:00</p>
+                            <p>Martes: 09:00 - 15:00</p>
+                            <p>Miercoles: 09:00 - 15:00</p>
+                        </div>
+                        <div class="horario">
+                            <p>Jueves: 09:00 - 15:00</p>
+                            <p>Viernes: 09:00 - 15:00</p>
+                            <p>Sabado: 09:00 - 15:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="derechosAutor">Derechos Reservados Pastelería Carmen</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/index.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+/* Celular */
+
+@media (max-width: 768px) {
+    .contenidoSabores {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 50px;
+    }
+    .contenedorSabores {
+        flex-direction: column;
+        width: 100%;
+    }
+    .tituloSabores {
+        text-align: center;
+        margin-top: 80px;
+        width: 100%;
+    }
+    .imgPasteles {
+        width: 100%;
+        height: 100%;
+    }
+    .sabores {
+        margin-bottom: 30px;
+    }
+    .enlaces {
+        display: none;
+    }
+    .btnLogin {
+        display: none;
+    }
+    .imgPastelesFooter {
+        width: 100%;
+        height: 100%;
+    }
+    .tituloPasteleria {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Fredoka', sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .contenedorInfo {
+        text-align: center;
+    }
+    .contenedorInfo1 {
+        flex-direction: column;
+    }
+    #title {
+        font-size: 25px;
+        text-align: center;
+    }
+    .horarios {
+        display: flex;
+        flex-direction: row;
+    }
+    .horario p {
+        margin: 10px;
+    }
+    .enlacesFooter {
+        display: flex;
+        flex-direction: column;
+    }
+    .imgSabores {
+        width: 100%;
+        height: 50%;
+    }
+    .sabores {
+        height: 250px;
+    }
+    .imgPasteles {
+        width: 100%;
+        height: 230px;
+    }
+    .cudriculaImagenes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .enlaceMenu {
+        display: block;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .active {
+        z-index: 0;
+    }
+    .opacity {
+        opacity: 0;
+    }
+    .fa-xmark {
+        color: red;
+        font-size: 50px;
+    }
+    .flexMenuOpt {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    /* --------------------------------------- */
+    .formulario {
+        width: 80%;
+        height: 50%;
+        margin-top: 150px;
+    }
+    .tituloFormulario {
+        height: 30px;
+    }
+    .tituloFormulario p {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .formControlPersonal {
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 3px;
+    }
+    .form p {
+        padding: 10px;
+    }
+    .form input {
+        width: 60%;
+        height: 20px;
+    }
+    .formControlDescripcion {
+        display: flex;
+        flex-direction: column;
+    }
+    .formControlDescripcion p {
+        font-size: 15px;
+    }
+    .formControlDescripcion input {
+        width: 90%;
+        height: 60px;
+    }
+    .contenedorS {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorS p {
+        font-size: 15px;
+    }
+    .itemS {
+        width: 90%;
+        height: 150px;
+        border: var(--secundario) solid 3px;
+        border-radius: 10px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .formControlAdornos {
+        margin-left: 5px;
+        margin-top: 1px;
+    }
+    .contenedorBtn input {
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        border: 2px solid #000;
+        background-color: var(--principal);
+        color: var(--secundario);
+        font-size: 15px;
+        font-family: 'Fredoka', sans-serif;
+        margin: 10px;
+        cursor: pointer;
+    }
+    /* ------------------------------------------- */
+    .pedidosForm {
+        width: 90%;
+        height: 100%;
+        margin-top: 150px;
+    }
+    .tituloPedido {
+        height: 20px;
+        font-size: 15px;
+    }
+    .contenedorTabla {
+        overflow-x: auto;
+    }
+    .contenedorTabla table {
+        width: 100%;
+        height: 100%;
+        border-spacing: 0;
+    }
+    .contenedorTabla table tr {
+        border: 1px solid #000;
+        width: 100%;
+    }
+    .contenedorTabla table tr td {
+        border: 1px solid #000;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Fredoka', sans-serif;
+        color: #055e2a;
+        padding: 10px;
+    }
+    .saboresForm {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        overflow-x: auto;
+        margin-right: 20px;
+    }
+    .saboresForm p {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Fredoka', sans-serif;
+        padding: 5px;
+    }
+    .itemS {
+        width: 80%;
+        height: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .tablaSabores {
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 1px solid #000;
+    }
+    .tablaSabores tr {
+        border: 1px solid #000;
+        width: 100%;
+    }
+    .tablaSabores tr td {
+        border: 1px solid #000;
+        width: 300px;
+        height: 100%;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Fredoka', sans-serif;
+        color: #055e2a;
+        padding: 10px;
+    }
+    .btn {
+        border-radius: 10px;
+        background-color: var(--principal);
+        color: var(--secundario);
+        font-weight: bold;
+        font-family: 'Fredoka', sans-serif;
+        padding: 3px;
+        cursor: pointer;
+    }
+}
